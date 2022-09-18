@@ -1,5 +1,5 @@
 build/
 .vscode/
-./*.cpp
-./*.cu
-./*.py
+*.cpp
+*.cu
+*.py
