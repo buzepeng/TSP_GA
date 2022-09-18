@@ -1,0 +1,5 @@
+build/
+.vscode/
+*.cpp
+*.cu
+*.py
