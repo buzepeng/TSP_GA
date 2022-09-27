@@ -4,7 +4,7 @@ project(TSP_GA LANGUAGES CUDA CXX)
 
 find_package(CUDA REQUIRED)
 
-cuda_add_executable(TSP_GA ${PROJECT_SOURCE_DIR}/src/TSP_GA.cu OPTIONS -O2 --std=c++11 --expt-extended-lambda
+cuda_add_executable(TSP_GA ${PROJECT_SOURCE_DIR}/src/main_gpu.cu ${PROJECT_SOURCE_DIR}/src/TSP_GA.cu OPTIONS -O2 --std=c++11 --expt-extended-lambda
 )
 
 # cuda_add_executable(TSP_GA ${PROJECT_SOURCE_DIR}/test.cu OPTIONS -g -G --std=c++11 --expt-extended-lambda
